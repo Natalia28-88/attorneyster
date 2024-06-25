@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  color: #d1b06b;
+  font-family: 'Outfit';
+  font-size: 21px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #4e555f;
+  margin-bottom: 26px;
+  @media (max-width: 465px) {
+    flex-direction: column;
+  }
+}
+
+.type {
+  padding-right: 20px;
+  border-right: 2px solid #d1b06b;
+  @media (max-width: 465px) {
+    border-right: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.date {
+  padding-left: 20px;
+  @media (max-width: 465px) {
+    width: 100%;
+    padding-left: 0;
+  }
+}

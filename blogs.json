@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "img/recentBlogs/blog-1.png",
+    "date": "Friday, February 4, 2022",
+    "title": "How to Tell Who Is at Fault in a Car Accident",
+    "type": "Corporate Law",
+    "text": "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically activity to beta test override the digital.",
+    "rating": 4
+  },
+  {
+    "id": 1,
+    "imageUrl": "img/recentBlogs/blog-2.png",
+    "date": "Friday, February 4, 2022",
+    "title": "When Sue Outside of Workers’ Compensation",
+    "type": "Legal Advice",
+    "text": "Strategies on low-hanging fruit to identify a ballpark value added activity matrix economically to beta test override the digital.",
+    "rating": 6
+  },
+  {
+    "id": 2,
+    "imageUrl": "img/recentBlogs/blog-3.png",
+    "date": "Friday, February 4, 2022",
+    "title": "Social Media Postings Lead to Defense Verdict",
+    "type": "Social Justice",
+    "text": "Collaborative on low-hanging fruit to identify a ballpark value added activity to beta matrix economically test override the digital.",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "imageUrl": "img/recentBlogs/blog-4.png",
+    "date": "Friday, February 4, 2022",
+    "title": "Riding solo to the rescue of her beloved nonprofits",
+    "type": "Corporate Law",
+    "text": "Podcasting on low-hanging fruit to identify a ballpark value added activity to beta test override matrix economically the digital.",
+    "rating": 2
+  },
+  {
+    "id": 4,
+    "imageUrl": "img/recentBlogs/blog-5.png",
+    "date": "Friday, February 4, 2022",
+    "title": "Case Filed on Behalf of Injured Tugboat Worker",
+    "type": "Legal Advice",
+    "text": "Efficiently on low-hanging fruit to identify a ballpark value added activity to beta test matrix economically override the digital.",
+    "rating": 8
+  },
+  {
+    "id": 5,
+    "imageUrl": "img/recentBlogs/blog-6.png",
+    "date": "Friday, February 4, 2022",
+    "title": "How Companies Choose Legal Representation",
+    "type": "Social Justice",
+    "text": "Objectively on low-hanging fruit to identify a ballpark value added activity to beta matrix economically test override the digital.",
+    "rating": 2
+  }
+]

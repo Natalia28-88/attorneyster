@@ -1,0 +1,138 @@
+.contactBlock {
+  min-height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  @media (max-width: 1330px) {
+    flex-direction: column;
+  }
+  @media (max-width: 1050px) {
+    padding: 0;
+  }
+  h2 {
+    font-size: 42px;
+    margin-bottom: 12px;
+    @media (max-width: 1330px) {
+      margin-bottom: 5px;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    margin: 0;
+  }
+  .callUs {
+    display: flex;
+    height: 22px;
+    padding-top: 40px;
+    @media (max-width: 565px) {
+      padding-top: 10px;
+    }
+    img {
+      width: 70px;
+      height: 70px;
+      @media (max-width: 565px) {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    p {
+      color: #1f2732 !important;
+      @media (max-width: 565px) {
+        line-height: 25px;
+      }
+    }
+  }
+  &__description {
+    max-width: 630px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (max-width: 1330px) {
+      max-width: 1330px;
+      margin-bottom: 40px;
+      p {
+        margin-top: -50px;
+        @media (max-width: 565px) {
+          margin-top: -60px;
+        }
+      }
+    }
+    h2 {
+      @media (max-width: 565px) {
+        line-height: 50px;
+      }
+    }
+  }
+
+  &__image {
+    width: 630px;
+    min-height: 490px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    @media (max-width: 1330px) {
+      width: 100vw;
+    }
+    @media (max-width: 1050px) {
+      min-height: 388px;
+    }
+    @media (max-width: 580px) {
+      min-height: 410px;
+    }
+    @media (max-width: 565px) {
+      min-height: 250px;
+    }
+    @media (max-width: 465px) {
+      min-height: 340px;
+    }
+
+    .content {
+      width: 550px;
+      min-height: 410px;
+      border: 15px solid #d7d7d7;
+      padding: 50px;
+      @media (max-width: 1330px) {
+        width: 90vw;
+        margin: 0 auto;
+      }
+      @media (max-width: 1050px) {
+        min-height: 292px;
+      }
+      @media (max-width: 580px) {
+        min-height: 336px;
+      }
+      @media (max-width: 565px) {
+        min-height: 205px;
+      }
+      @media (max-width: 465px) {
+        min-height: 284px;
+      }
+      h2 {
+        color: #1f2732;
+        @media (max-width: 565px) {
+          line-height: 45px;
+          font-size: 35px;
+        }
+      }
+      p {
+        color: #909090;
+        @media (max-width: 565px) {
+          line-height: 25px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.colorYellow {
+  color: $yellow;
+}
+
+.colorDark {
+  color: $dark-main;
+}
+
+.colorGrayDark {
+  color: $grayDark !important;
+}
+
+.colorWhite {
+  color: $white !important;
+}
+
+.lineHeight-28 {
+  line-height: 28.8px;
+}
+
+.lineHeight-28 {
+  line-height: 28.8px;
+}
+
+.lineHeight-39 {
+  line-height: 39.6px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.hover-none {
+  &:hover {
+    color: $white !important;
+  }
+}
+
+.font-size-20 {
+  font-size: 20px !important;
+}

@@ -1,0 +1,120 @@
+nav {
+  color: $white;
+  padding: 50px;
+  @media (max-width: 1050px) {
+    padding: 0;
+    padding-top: 30px;
+  }
+  button {
+    font-family: 'Outfit';
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    line-height: 35.2px;
+    @media (max-width: 800px) {
+      line-height: 20px;
+      font-size: 18px;
+    }
+  }
+
+  .menuItems {
+    display: flex;
+    align-items: center;
+    @media (max-width: 565px) {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+
+  .menu {
+    @media (max-width: 1330px) {
+      display: block;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 688px) {
+      margin-bottom: 70px;
+    }
+  }
+
+  .navigation {
+    @media (max-width: 800px) {
+      display: block;
+      .logo {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .logo {
+    @media (max-width: 900px) {
+      margin-right: 50px;
+    }
+  }
+
+  ul {
+    height: 130px;
+    @media (max-width: 1330px) {
+      height: 95px;
+    }
+    @media (max-width: 565px) {
+      height: 75px;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  @media (max-width: 688px) {
+    display: block;
+    li {
+      margin-bottom: 20px;
+      margin-top: -10px;
+    }
+  }
+  @media (max-width: 565px) {
+    li {
+      padding-top: -20px;
+    }
+  }
+}
+
+.name {
+  margin-right: 10px;
+  @media (max-width: 465px) {
+    width: 200px;
+  }
+}
+
+.buttonGray {
+  width: 350px;
+  height: 85px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  color: $white;
+  @media (max-width: 465px) {
+    width: 250px;
+    height: 50px;
+  }
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  cursor: pointer;
+  @include noselect();
+
+  &:active {
+    color: #d1b06b;
+  }
+  &:hover {
+    color: $yellow;
+  }
+
+  &.active {
+    color: $yellow;
+    &:active {
+      color: $yellow;
+    }
+  }
+}

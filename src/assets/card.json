@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "icon": "icon1",
+    "title": "Business Law",
+    "text": "Be aware of new developments, as laws and rules often change based on the situation."
+  },
+  {
+    "id": 1,
+    "icon": "icon2",
+    "title": "Construction Law",
+    "text": "Never judge, just listen and advise. Even if your client has made a bad decision in the case."
+  },
+  {
+    "id": 2,
+    "icon": "icon3",
+    "title": "Car Accident",
+    "text": "Being untruthful will get you nowhere and give you a reputation of the dishonesty in law."
+  },
+  {
+    "id": 3,
+    "icon": "icon4",
+    "title": "Wrongful Death",
+    "text": "Keep yourself up-to-date on your area of law. Be aware of new justice, as laws and rules."
+  },
+  {
+    "id": 4,
+    "icon": "icon5",
+    "title": "Criminal Law",
+    "text": "Keep yourself up-to-date on your area of law. Be aware of new justice, as laws and rules."
+  },
+  {
+    "id": 5,
+    "icon": "icon6",
+    "title": "Family Law",
+    "text": "You may find yourself unable to work or complete work-related responsibilities safely."
+  }
+]

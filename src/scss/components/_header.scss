@@ -1,0 +1,101 @@
+header {
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  min-height: 1023px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+
+  @media (max-width: 688px) {
+    height: 850px;
+  }
+
+  li {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+    margin-right: 50px;
+    &.active {
+      color: $yellow;
+    }
+  }
+
+  h1 {
+    line-height: 78px;
+  }
+
+  .title {
+    top: 60%;
+    position: absolute;
+    transform: translateY(-50%);
+    @media (max-width: 1330px) {
+      top: 65%;
+    }
+    @media (max-width: 800px) {
+      top: 72%;
+    }
+    @media (max-width: 688px) {
+      top: 75%;
+      padding: 20px !important;
+    }
+    @media (max-width: 465px) {
+      top: 71%;
+    }
+  }
+
+  .overlay {
+    background: rgba(31, 39, 50, 0.81);
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .men {
+    position: absolute;
+    bottom: -0.5%;
+    right: 10vw;
+    @media (max-width: 1410px) {
+      right: 1%;
+    }
+    @media (max-width: 1275px) {
+      img {
+        width: 450px;
+        height: 474px;
+      }
+    }
+    @media (max-width: 900px) {
+      img {
+        width: 400px;
+        height: 414px;
+      }
+    }
+    @media (max-width: 800px) {
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+.ButtonYellow {
+  width: 269px;
+  height: 85px;
+  color: $background-cards-practic-areas;
+  border: 1px solid $yellow;
+  background: $yellow;
+  font-family: 'Outfit', Roboto, system-ui, Tahoma, sans-serif;
+  font-size: 22px;
+  text-transform: capitalize;
+
+  @media (max-width: 565px) {
+    width: 255px;
+    height: 60px;
+  }
+
+  @media (max-width: 465px) {
+    width: 250px;
+    height: 30px;
+    margin: 40px 0 40px 0;
+  }
+}

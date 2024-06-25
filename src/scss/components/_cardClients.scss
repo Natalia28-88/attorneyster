@@ -1,0 +1,69 @@
+.cardClients {
+  display: flex;
+  align-items: center;
+  width: 433px;
+  height: 180px;
+  text-transform: capitalize;
+  margin-bottom: 82px;
+  margin-right: 50px;
+  @media (max-width: 770px) {
+    width: 100%;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .line {
+    width: 100%;
+    height: 1px;
+    background: $grayDark;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    width: 118px;
+    height: 120px;
+    border: 2px solid $yellow;
+  }
+
+  span {
+    font-family: 'Outfit';
+    font-size: 30px;
+    line-height: 39px;
+    color: $dark-main;
+  }
+}
+
+.partners {
+  display: flex;
+  padding: 50px !important;
+  justify-content: space-between;
+  @media (max-width: 1050px) {
+    margin-bottom: 30px;
+  }
+  @media (max-width: 770px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+  }
+  @media (max-width: 465px) {
+    display: block;
+  }
+}
+
+.partners-title {
+  padding-top: 50px;
+}
+
+.content-cardClients {
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  flex-wrap: wrap;
+  @media (max-width: 770px) {
+    display: block;
+    width: 100%;
+  }
+}
